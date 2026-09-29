@@ -1,0 +1,37 @@
+# ── Media: source videos and rendered output (large, and the source MV is third-party footage) ──
+videos/
+*.mp4
+*.mov
+*.webm
+out/
+
+# ── Generated previews and render checks ──
+mic-preview/
+
+# ── Tool caches / downloads ──
+# Remotion's headless Chrome download (~270 MB)
+.remotion/
+# Whisper models downloaded by the video2txt skill (~140 MB)
+.claude/skills/video2txt/scripts/models/
+
+# ── Subtitle intermediates from video2txt ──
+*.raw.srt
+*.raw.ass
+*.raw.txt
+corrections.json
+
+# ── Node / Python ──
+node_modules/
+dist/
+__pycache__/
+*.pyc
+
+# ── Local settings / secrets ──
+.env
+.env.*
+.claude/settings.local.json
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+desktop.ini
