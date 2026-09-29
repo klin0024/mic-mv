@@ -4,6 +4,10 @@
 
 目前的作品是《麥克風交給您》：把真人實拍 MV 重製成擬人動物市民、捲髮市長、台北天際線風格的動態歌詞動畫，附卡拉 OK 逐字變色字幕與頻道浮水印。
 
+![《麥克風交給您》Remotion 重製版預覽](docs/preview.gif)
+
+> 預覽為 7 個關鍵畫面的剪輯（12.6 秒）。完整版 3 分 45 秒，1920×1080。
+
 ## 目錄結構
 
 ```
@@ -11,6 +15,7 @@ anima/
 ├─ mic-mv/             《麥克風交給您》Remotion 專案
 ├─ videos/             原片、成品 MP4、SRT 字幕（不進版控）
 ├─ mic-preview/        關鍵畫面預覽圖（不進版控）
+├─ docs/preview.gif    README 用的影片預覽（會進版控）
 ├─ .claude/
 │  ├─ skills/          Claude Code skills（Remotion 系列、remotion-video-remake、video2txt）
 │  └─ launch.json      Remotion Studio 啟動設定（mic-mv-studio，port 3100）
